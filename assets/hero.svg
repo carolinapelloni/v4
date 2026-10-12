@@ -1,0 +1,19 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+  <rect width="900" height="1100" fill="#2D6C78"/>
+  <circle cx="680" cy="210" r="190" fill="#6AB6C1"/>
+  <path d="M70 1100V490L340 270L610 490V1100Z" fill="#FFF2E9"/>
+  <path d="M340 270V1100M70 490H610M205 380V1100M475 380V1100"
+        stroke="#2D6C78" stroke-width="7" fill="none"/>
+  <path d="M610 1100V550L800 410V1100Z" fill="#CFE6E7"/>
+  <path d="M610 550H800M705 480V1100"
+        stroke="#2D6C78" stroke-width="6" fill="none"/>
+  <rect x="115" y="540" width="150" height="170" fill="#CFE6E7"/>
+  <rect x="390" y="540" width="170" height="170" fill="#6AB6C1"/>
+  <rect x="115" y="760" width="150" height="170" fill="#6AB6C1"/>
+  <rect x="390" y="760" width="170" height="170" fill="#CFE6E7"/>
+  <path d="M0 930L900 710M0 1010L900 790M0 1090L900 870"
+        stroke="#6AB6C1" stroke-width="2" opacity=".7"/>
+  <path d="M70 490L340 270L610 490"
+        stroke="#2A2A2A" stroke-width="8" fill="none"/>
+</svg>
