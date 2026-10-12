@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prenota una consulenza | Studio Forma</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><span class="brand-mark">SF</span>
+      <span>STUDIO FORMA<small>INGEGNERIA · PROGETTO · VISIONE</small></span></a>
+    <button class="menu-toggle" aria-label="Apri il menu"
+      aria-expanded="false" aria-controls="menu-principale">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="menu-principale" aria-label="Menu principale">
+      <a href="index.html">Home</a>
+      <a href="lavori.html">I miei lavori</a>
+      <a href="servizi.html">Attività</a>
+      <a href="consulenza.html" aria-current="page">Consulenza</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenuto">
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Prenota una consulenza</div>
+      <h1>Un confronto oggi.<br><em>Più chiarezza domani.</em></h1>
+      <p class="lead">
+        Raccontami la tua esigenza: un primo confronto permette
+        di comprendere il contesto e individuare i prossimi passi.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div>
+        <div class="eyebrow">Il primo incontro</div>
+        <h2>Portiamo la tua idea al tavolo.</h2>
+        <p>
+          Compila il modulo con le informazioni essenziali.
+          Potrai poi concordare modalità e disponibilità
+          del colloquio.
+        </p>
+
+        <ul class="check-list">
+          <li>Conoscere il contesto e gli obiettivi</li>
+          <li>Mettere a fuoco dubbi e priorità</li>
+          <li>Individuare le informazioni necessarie</li>
+          <li>Definire i possibili prossimi passi</li>
+        </ul>
+
+        <p class="small-note">
+          Modulo dimostrativo: le informazioni inserite non vengono
+          inviate né salvate.
+        </p>
+      </div>
+
+      <form class="form-card" data-demo-form>
+        <div class="form-grid">
+
+          <div class="field">
+            <label for="nome">Nome e cognome *</label>
+            <input id="nome" name="nome" autocomplete="name"
+              required placeholder="Come ti chiami?">
+          </div>
+
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email"
+              autocomplete="email" required placeholder="nome@email.it">
+          </div>
+
+          <div class="field field-full">
+            <label for="tema">Tipo di richiesta *</label>
+            <select id="tema" name="tema" required>
+              <option value="">Seleziona un'attività</option>
+              <option value="Consulenza tecnica">Consulenza tecnica</option>
+              <option value="Progettazione">Progettazione</option>
+              <option value="Pratiche">Pratiche e documentazione</option>
+              <option value="Sopralluogo">Sopralluogo e valutazioni</option>
+              <option value="Riqualificazione">Riqualificazione edilizia</option>
+              <option value="Altro">Altro</option>
+            </select>
+          </div>
+
+          <div class="field field-full">
+            <label for="preferenza">Preferenza di contatto</label>
+            <select id="preferenza" name="preferenza">
+              <option value="Videochiamata">Videochiamata</option>
+              <option value="Telefono">Telefono</option>
+              <option value="In presenza">In presenza</option>
+              <option value="Email">Prima via email</option>
+            </select>
+          </div>
+
+          <div class="field field-full">
+            <label for="messaggio">Descrivi brevemente il progetto</label>
+            <textarea id="messaggio" name="messaggio"
+              placeholder="Obiettivo, luogo, tempistiche, dubbi…"></textarea>
+          </div>
+
+          <div class="field field-full">
+            <label class="checkbox-line" for="privacy">
+              <input id="privacy" name="privacy" type="checkbox" required>
+              <span>Confermo di aver letto l'informativa privacy da inserire prima della pubblicazione. *</span>
+            </label>
+          </div>
+
+          <div class="field field-full">
+            <button class="button" type="submit">
+              Richiedi un contatto ↗
+            </button>
+            <div class="notice" role="status" aria-live="polite"></div>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><a class="brand" href="index.html"><span class="brand-mark">SF</span>
+      <span>STUDIO FORMA<small>INGEGNERIA · PROGETTO · VISIONE</small></span></a>
+      <p>© <span data-year></span> Studio Forma · Sito dimostrativo</p></div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><a href="lavori.html">Lavori</a>
+      <a href="servizi.html">Attività</a><a href="contatti.html">Contatti</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

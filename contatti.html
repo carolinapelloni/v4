@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti | Studio Forma</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body id="top">
+<a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+<header class="site-header">
+  <div class="container navbar">
+    <a class="brand" href="index.html"><span class="brand-mark">SF</span>
+      <span>STUDIO FORMA<small>INGEGNERIA · PROGETTO · VISIONE</small></span></a>
+    <button class="menu-toggle" aria-label="Apri il menu"
+      aria-expanded="false" aria-controls="menu-principale">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="menu-principale" aria-label="Menu principale">
+      <a href="index.html">Home</a>
+      <a href="lavori.html">I miei lavori</a>
+      <a href="servizi.html">Attività</a>
+      <a href="consulenza.html">Consulenza</a>
+      <a href="contatti.html" aria-current="page">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenuto">
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Contatti</div>
+      <h1>Parliamo di quello<br>che vuoi <em>costruire.</em></h1>
+      <p class="lead">
+        Hai un progetto, una domanda o un problema tecnico da valutare?
+        Scrivimi: il primo passo è capire come posso aiutarti.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div>
+        <div class="eyebrow">Studio Forma</div>
+        <h2>Un contatto diretto.</h2>
+        <p>
+          Per richieste di informazioni, nuovi incarichi o un primo
+          confronto, utilizza i recapiti dello studio.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <strong>Email</strong>
+            <a href="mailto:info@tuostudio.it">info@tuostudio.it</a>
+          </li>
+          <li>
+            <strong>Telefono</strong>
+            <a href="tel:+390000000000">+39 000 000 0000</a>
+          </li>
+          <li>
+            <strong>Sede</strong>
+            Indirizzo dello studio · Città
+          </li>
+          <li>
+            <strong>Ricevimento</strong>
+            Su appuntamento
+          </li>
+        </ul>
+
+        <a class="button" href="consulenza.html">
+          Prenota una consulenza ↗
+        </a>
+      </div>
+
+      <form class="form-card" data-demo-form>
+        <h3>Scrivimi un messaggio</h3>
+        <p class="muted">
+          Compila i campi per provare il modulo.
+        </p>
+
+        <div class="form-grid">
+          <div class="field">
+            <label for="nome">Nome *</label>
+            <input id="nome" name="nome" required autocomplete="name">
+          </div>
+
+          <div class="field">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email"
+              required autocomplete="email">
+          </div>
+
+          <div class="field field-full">
+            <label for="oggetto">Oggetto</label>
+            <input id="oggetto" name="oggetto"
+              placeholder="Motivo della richiesta">
+          </div>
+
+          <div class="field field-full">
+            <label for="messaggio">Messaggio *</label>
+            <textarea id="messaggio" name="messaggio" required
+              placeholder="Come posso aiutarti?"></textarea>
+          </div>
+
+          <div class="field field-full">
+            <button class="button" type="submit">
+              Conferma il messaggio ↗
+            </button>
+            <div class="notice" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+
+        <p class="small-note">
+          Modulo dimostrativo: non invia email e non salva dati.
+          Per ricevere messaggi reali va collegato a un servizio.
+        </p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><a class="brand" href="index.html"><span class="brand-mark">SF</span>
+      <span>STUDIO FORMA<small>INGEGNERIA · PROGETTO · VISIONE</small></span></a>
+      <p>© <span data-year></span> Studio Forma · Sito dimostrativo</p></div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><a href="lavori.html">Lavori</a>
+      <a href="servizi.html">Attività</a><a href="consulenza.html">Consulenza</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
